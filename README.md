@@ -6,6 +6,8 @@
 
 A minimalistic minor-mode to highlight redundant spaces
 
+![Demo](images/demo.gif)
+
 ## Installation
 
 ### Manual
