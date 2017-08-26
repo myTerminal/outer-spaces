@@ -60,11 +60,11 @@
                   (unhighlight-regexp "^ +$")))))
 
 (defface outer-spaces-line-start-face
-  '((t (:background "white")))
+  '((t (:background "green" :strike-through "red")))
   "Used in outer-spaces for spaces at the start of an empty line.")
 
 (defface outer-spaces-line-end-face
-  '((t (:background "red")))
+  '((t (:background "red" :strike-through "green")))
   "Used in outer-spaces for spaces at the end of a line.")
 
 (provide 'outer-spaces)
