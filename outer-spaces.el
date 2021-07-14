@@ -50,7 +50,7 @@
 
 ;;;###autoload
 (define-minor-mode outer-spaces-mode
-  "Toggle outer-spaces-mode"
+  "Toggle outer-spaces-mode."
   :init-value nil
   :lighter " outer-spaces"
   (cond (outer-spaces-mode (progn (highlight-regexp " +$"
